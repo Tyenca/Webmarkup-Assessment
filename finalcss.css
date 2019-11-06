@@ -1,0 +1,61 @@
+body{
+    background-color: #4a4a4a;
+
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+	font-size: 55px;
+	color: #234a28;
+	text-align: center;
+}
+
+nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #4a4a4a;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+li, a, button{
+font-family: Arial, sans-serif ;
+font-weight: 500;
+font-size: 16px;
+color: #ffffff;
+text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover{
+    color: #00e5ff;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #1f1970;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #424b9c;
+}
+section{
+    background-color: gray;
+}
