@@ -1,7 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+}
+
 body{
     background-color: #4a4a4a;
+    margin: 0;
+    padding: 0;
 
 }
+
 h1{
     font-family: 'Roboto', sans-serif;
 	font-size: 55px;
@@ -58,4 +66,50 @@ button:hover{
 }
 section{
     background-color: gray;
+}
+
+.logoHeader {
+    height: 120px;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+.amsterdam1 { 
+    float: left; 
+}
+
+.amsterdam2 { 
+    float: right; 
+}
+
+.adam{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    width: 900px;
+    padding-left: 20px;
+    clear: both;
+}
+.bolo{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 900px;
+    padding-left: 20px;
+    clear: both;
 }
